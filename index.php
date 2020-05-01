@@ -13,8 +13,8 @@ $newShop->init();
 class ShopBot
 {
     // первичные данные
-    private $token = "1082930442:AAHycW7KwgVfnwc0orPblpllylZrMENt35U";
-    private $admin = 1077236696; // Ваш id в ТЕЛГРАМ
+    private $token = "";
+    private $admin = ; // Ваш id в ТЕЛГРАМ
     private $helloText = "Добро пожаловать в магазин \n<b>на_полке онлайн</b>, пожалуйста выберите категорию товаров:";
 	private $img_path = "img"; // путь до директории с картинками
 
@@ -29,8 +29,8 @@ class ShopBot
 
     // для соединения с БД
     private $host = 'localhost';
-    private $db = 'na_polke';
-    private $user = 'root';
+    private $db = '';
+    private $user = '';
     private $pass = '';
     private $charset = 'utf8mb4';
     /**
